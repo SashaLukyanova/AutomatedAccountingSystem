@@ -1,0 +1,1386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="CattlesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>472, 161</value>
+  </metadata>
+  <metadata name="CattleDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>346, 161</value>
+  </metadata>
+  <metadata name="CattleDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>346, 161</value>
+  </metadata>
+  <metadata name="MilkBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>134, 122</value>
+  </metadata>
+  <metadata name="MilkDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 122</value>
+  </metadata>
+  <metadata name="MilkDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 122</value>
+  </metadata>
+  <metadata name="OrdersBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 161</value>
+  </metadata>
+  <metadata name="OrderDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>436, 122</value>
+  </metadata>
+  <metadata name="OrderDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>436, 122</value>
+  </metadata>
+  <metadata name="toolStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>866, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolStrip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="toolStrip.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStrip.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="newToolButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="newToolButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 42</value>
+  </data>
+  <data name="newToolButton.Text" xml:space="preserve">
+    <value>newToolButton</value>
+  </data>
+  <data name="newToolButton.ToolTipText" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="editToolButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="editToolButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 42</value>
+  </data>
+  <data name="editToolButton.Text" xml:space="preserve">
+    <value>editToolButton</value>
+  </data>
+  <data name="editToolButton.ToolTipText" xml:space="preserve">
+    <value>Редактировать</value>
+  </data>
+  <data name="deleteToolButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="deleteToolButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 42</value>
+  </data>
+  <data name="deleteToolButton.Text" xml:space="preserve">
+    <value>deleteToolButton</value>
+  </data>
+  <data name="deleteToolButton.ToolTipText" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="nameLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="nameLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 39</value>
+  </data>
+  <data name="toolStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 0</value>
+  </data>
+  <data name="toolStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="toolStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>870, 42</value>
+  </data>
+  <data name="toolStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="toolStrip.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="toolStrip.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Name" xml:space="preserve">
+    <value>toolStrip</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStrip.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="customerReportButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="customerReportButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="customerReportButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="customerReportButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 621</value>
+  </data>
+  <data name="customerReportButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="customerReportButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 56</value>
+  </data>
+  <data name="customerReportButton.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="customerReportButton.Text" xml:space="preserve">
+    <value>Отчет по заказчику</value>
+  </data>
+  <data name="customerReportButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="customerReportButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;customerReportButton.Name" xml:space="preserve">
+    <value>customerReportButton</value>
+  </data>
+  <data name="&gt;&gt;customerReportButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customerReportButton.Parent" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;customerReportButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cattleReportButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="cattleReportButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="cattleReportButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cattleReportButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 597</value>
+  </data>
+  <data name="cattleReportButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="cattleReportButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 56</value>
+  </data>
+  <data name="cattleReportButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cattleReportButton.Text" xml:space="preserve">
+    <value>Отчет по КСР</value>
+  </data>
+  <data name="cattleReportButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="cattleReportButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cattleReportButton.Name" xml:space="preserve">
+    <value>cattleReportButton</value>
+  </data>
+  <data name="&gt;&gt;cattleReportButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cattleReportButton.Parent" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;cattleReportButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="orderReportButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="orderReportButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="orderReportButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="orderReportButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 565</value>
+  </data>
+  <data name="orderReportButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="orderReportButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 56</value>
+  </data>
+  <data name="orderReportButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="orderReportButton.Text" xml:space="preserve">
+    <value>Отчет по заказам</value>
+  </data>
+  <data name="orderReportButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="orderReportButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;orderReportButton.Name" xml:space="preserve">
+    <value>orderReportButton</value>
+  </data>
+  <data name="&gt;&gt;orderReportButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;orderReportButton.Parent" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;orderReportButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NavigationLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NavigationLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
+  </data>
+  <data name="NavigationLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NavigationLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 14</value>
+  </data>
+  <data name="NavigationLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="NavigationLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="NavigationLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="NavigationLabel.Text" xml:space="preserve">
+    <value>Навигация</value>
+  </data>
+  <data name="&gt;&gt;NavigationLabel.Name" xml:space="preserve">
+    <value>NavigationLabel</value>
+  </data>
+  <data name="&gt;&gt;NavigationLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NavigationLabel.Parent" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;NavigationLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="milkReportButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="milkReportButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="milkReportButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="milkReportButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 541</value>
+  </data>
+  <data name="milkReportButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="milkReportButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 56</value>
+  </data>
+  <data name="milkReportButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="milkReportButton.Text" xml:space="preserve">
+    <value>Отчет по молочной продукции</value>
+  </data>
+  <data name="milkReportButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="milkReportButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;milkReportButton.Name" xml:space="preserve">
+    <value>milkReportButton</value>
+  </data>
+  <data name="&gt;&gt;milkReportButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;milkReportButton.Parent" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;milkReportButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CustomersButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="CustomersButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="CustomersButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="CustomersButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CustomersButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 34</value>
+  </data>
+  <data name="CustomersButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="CustomersButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 84</value>
+  </data>
+  <data name="CustomersButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="CustomersButton.Text" xml:space="preserve">
+    <value>Клиенты</value>
+  </data>
+  <data name="CustomersButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;CustomersButton.Name" xml:space="preserve">
+    <value>CustomersButton</value>
+  </data>
+  <data name="&gt;&gt;CustomersButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CustomersButton.Parent" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;CustomersButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="milkTTBatton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="milkTTBatton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="milkTTBatton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="milkTTBatton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 510</value>
+  </data>
+  <data name="milkTTBatton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="milkTTBatton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 56</value>
+  </data>
+  <data name="milkTTBatton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="milkTTBatton.Text" xml:space="preserve">
+    <value>Накладная (Молоко)</value>
+  </data>
+  <data name="milkTTBatton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="milkTTBatton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;milkTTBatton.Name" xml:space="preserve">
+    <value>milkTTBatton</value>
+  </data>
+  <data name="&gt;&gt;milkTTBatton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;milkTTBatton.Parent" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;milkTTBatton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="OrdersButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="OrdersButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="OrdersButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="OrdersButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="OrdersButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 202</value>
+  </data>
+  <data name="OrdersButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="OrdersButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 84</value>
+  </data>
+  <data name="OrdersButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="OrdersButton.Text" xml:space="preserve">
+    <value>Заказы (ТТН)</value>
+  </data>
+  <data name="OrdersButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;OrdersButton.Name" xml:space="preserve">
+    <value>OrdersButton</value>
+  </data>
+  <data name="&gt;&gt;OrdersButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OrdersButton.Parent" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;OrdersButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ProductsButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ProductsButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="ProductsButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="ProductsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProductsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 118</value>
+  </data>
+  <data name="ProductsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ProductsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 84</value>
+  </data>
+  <data name="ProductsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ProductsButton.Text" xml:space="preserve">
+    <value>Продукты</value>
+  </data>
+  <data name="ProductsButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;ProductsButton.Name" xml:space="preserve">
+    <value>ProductsButton</value>
+  </data>
+  <data name="&gt;&gt;ProductsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProductsButton.Parent" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;ProductsButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cattleTTButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="cattleTTButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="cattleTTButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cattleTTButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 477</value>
+  </data>
+  <data name="cattleTTButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="cattleTTButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 56</value>
+  </data>
+  <data name="cattleTTButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="cattleTTButton.Text" xml:space="preserve">
+    <value>Накладная (КРС)</value>
+  </data>
+  <data name="cattleTTButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="cattleTTButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cattleTTButton.Name" xml:space="preserve">
+    <value>cattleTTButton</value>
+  </data>
+  <data name="&gt;&gt;cattleTTButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cattleTTButton.Parent" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;cattleTTButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="MilkButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="MilkButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="MilkButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MilkButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 342</value>
+  </data>
+  <data name="MilkButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="MilkButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 56</value>
+  </data>
+  <data name="MilkButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="MilkButton.Text" xml:space="preserve">
+    <value>Молоко</value>
+  </data>
+  <data name="MilkButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="MilkButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;MilkButton.Name" xml:space="preserve">
+    <value>MilkButton</value>
+  </data>
+  <data name="&gt;&gt;MilkButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MilkButton.Parent" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;MilkButton.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="CattleButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="CattleButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="CattleButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CattleButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 397</value>
+  </data>
+  <data name="CattleButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="CattleButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 56</value>
+  </data>
+  <data name="CattleButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="CattleButton.Text" xml:space="preserve">
+    <value>Крупный рогатый скот</value>
+  </data>
+  <data name="CattleButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="CattleButton.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;CattleButton.Name" xml:space="preserve">
+    <value>CattleButton</value>
+  </data>
+  <data name="&gt;&gt;CattleButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CattleButton.Parent" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;CattleButton.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="allReportsButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="allReportsButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="allReportsButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="allReportsButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="allReportsButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 286</value>
+  </data>
+  <data name="allReportsButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="allReportsButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 84</value>
+  </data>
+  <data name="allReportsButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="allReportsButton.Text" xml:space="preserve">
+    <value>Отчеты</value>
+  </data>
+  <data name="allReportsButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomCenter</value>
+  </data>
+  <data name="&gt;&gt;allReportsButton.Name" xml:space="preserve">
+    <value>allReportsButton</value>
+  </data>
+  <data name="&gt;&gt;allReportsButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;allReportsButton.Parent" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;allReportsButton.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="NavigationPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="NavigationPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="NavigationPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 705</value>
+  </data>
+  <data name="NavigationPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;NavigationPanel.Name" xml:space="preserve">
+    <value>NavigationPanel</value>
+  </data>
+  <data name="&gt;&gt;NavigationPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NavigationPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NavigationPanel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="dtgvCustomer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 45</value>
+  </data>
+  <data name="dtgvCustomer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 660</value>
+  </data>
+  <data name="dtgvCustomer.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dtgvCustomer.Name" xml:space="preserve">
+    <value>dtgvCustomer</value>
+  </data>
+  <data name="&gt;&gt;dtgvCustomer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtgvCustomer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtgvCustomer.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="dtgvCattle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 45</value>
+  </data>
+  <data name="dtgvCattle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 660</value>
+  </data>
+  <data name="dtgvCattle.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;dtgvCattle.Name" xml:space="preserve">
+    <value>dtgvCattle</value>
+  </data>
+  <data name="&gt;&gt;dtgvCattle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtgvCattle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtgvCattle.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="dtgvOrder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 45</value>
+  </data>
+  <data name="dtgvOrder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 660</value>
+  </data>
+  <data name="dtgvOrder.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;dtgvOrder.Name" xml:space="preserve">
+    <value>dtgvOrder</value>
+  </data>
+  <data name="&gt;&gt;dtgvOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtgvOrder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtgvOrder.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="dtgvMilk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 45</value>
+  </data>
+  <data name="dtgvMilk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 660</value>
+  </data>
+  <data name="dtgvMilk.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;dtgvMilk.Name" xml:space="preserve">
+    <value>dtgvMilk</value>
+  </data>
+  <data name="&gt;&gt;dtgvMilk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtgvMilk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtgvMilk.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cattleTTReportViewer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 34</value>
+  </data>
+  <data name="cattleTTReportViewer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 671</value>
+  </data>
+  <data name="cattleTTReportViewer.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cattleTTReportViewer.Name" xml:space="preserve">
+    <value>cattleTTReportViewer</value>
+  </data>
+  <data name="&gt;&gt;cattleTTReportViewer.Type" xml:space="preserve">
+    <value>Microsoft.Reporting.WinForms.ReportViewer, Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</value>
+  </data>
+  <data name="&gt;&gt;cattleTTReportViewer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cattleTTReportViewer.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="milkTTReportViewer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 34</value>
+  </data>
+  <data name="milkTTReportViewer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 671</value>
+  </data>
+  <data name="milkTTReportViewer.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;milkTTReportViewer.Name" xml:space="preserve">
+    <value>milkTTReportViewer</value>
+  </data>
+  <data name="&gt;&gt;milkTTReportViewer.Type" xml:space="preserve">
+    <value>Microsoft.Reporting.WinForms.ReportViewer, Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</value>
+  </data>
+  <data name="&gt;&gt;milkTTReportViewer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;milkTTReportViewer.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="milkReportViewer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 0</value>
+  </data>
+  <data name="milkReportViewer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 705</value>
+  </data>
+  <data name="milkReportViewer.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="milkReportViewer.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;milkReportViewer.Name" xml:space="preserve">
+    <value>milkReportViewer</value>
+  </data>
+  <data name="&gt;&gt;milkReportViewer.Type" xml:space="preserve">
+    <value>Microsoft.Reporting.WinForms.ReportViewer, Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</value>
+  </data>
+  <data name="&gt;&gt;milkReportViewer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;milkReportViewer.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="orderReportViewer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 34</value>
+  </data>
+  <data name="orderReportViewer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 671</value>
+  </data>
+  <data name="orderReportViewer.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="orderReportViewer.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;orderReportViewer.Name" xml:space="preserve">
+    <value>orderReportViewer</value>
+  </data>
+  <data name="&gt;&gt;orderReportViewer.Type" xml:space="preserve">
+    <value>Microsoft.Reporting.WinForms.ReportViewer, Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</value>
+  </data>
+  <data name="&gt;&gt;orderReportViewer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;orderReportViewer.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="cattleReportViewer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 0</value>
+  </data>
+  <data name="cattleReportViewer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 705</value>
+  </data>
+  <data name="cattleReportViewer.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="cattleReportViewer.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cattleReportViewer.Name" xml:space="preserve">
+    <value>cattleReportViewer</value>
+  </data>
+  <data name="&gt;&gt;cattleReportViewer.Type" xml:space="preserve">
+    <value>Microsoft.Reporting.WinForms.ReportViewer, Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</value>
+  </data>
+  <data name="&gt;&gt;cattleReportViewer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cattleReportViewer.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="customerReportViewer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 34</value>
+  </data>
+  <data name="customerReportViewer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>868, 671</value>
+  </data>
+  <data name="customerReportViewer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="customerReportViewer.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;customerReportViewer.Name" xml:space="preserve">
+    <value>customerReportViewer</value>
+  </data>
+  <data name="&gt;&gt;customerReportViewer.Type" xml:space="preserve">
+    <value>Microsoft.Reporting.WinForms.ReportViewer, Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91</value>
+  </data>
+  <data name="&gt;&gt;customerReportViewer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;customerReportViewer.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ReportsLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="ReportsLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ReportsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>204, 7</value>
+  </data>
+  <data name="ReportsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 23</value>
+  </data>
+  <data name="ReportsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="ReportsLabel.Text" xml:space="preserve">
+    <value>ReportsLabel</value>
+  </data>
+  <data name="ReportsLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ReportsLabel.Name" xml:space="preserve">
+    <value>ReportsLabel</value>
+  </data>
+  <data name="&gt;&gt;ReportsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReportsLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ReportsLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ReportsComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 8</value>
+  </data>
+  <data name="ReportsComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 21</value>
+  </data>
+  <data name="ReportsComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;ReportsComboBox.Name" xml:space="preserve">
+    <value>ReportsComboBox</value>
+  </data>
+  <data name="&gt;&gt;ReportsComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReportsComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ReportsComboBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="customersReportBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>197, 52</value>
+  </metadata>
+  <metadata name="customerReportWorkDBDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>191, 8</value>
+  </metadata>
+  <metadata name="customerReportWorkDBDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>191, 8</value>
+  </metadata>
+  <data name="ReportDateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 9</value>
+  </data>
+  <data name="ReportDateTimePicker1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 20</value>
+  </data>
+  <data name="ReportDateTimePicker1.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;ReportDateTimePicker1.Name" xml:space="preserve">
+    <value>ReportDateTimePicker1</value>
+  </data>
+  <data name="&gt;&gt;ReportDateTimePicker1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReportDateTimePicker1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ReportDateTimePicker1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ReportDateTimePicker2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>695, 8</value>
+  </data>
+  <data name="ReportDateTimePicker2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 20</value>
+  </data>
+  <data name="ReportDateTimePicker2.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;ReportDateTimePicker2.Name" xml:space="preserve">
+    <value>ReportDateTimePicker2</value>
+  </data>
+  <data name="&gt;&gt;ReportDateTimePicker2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReportDateTimePicker2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ReportDateTimePicker2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ReportLabelPo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 12pt, style=Bold</value>
+  </data>
+  <data name="ReportLabelPo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ReportLabelPo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>609, 7</value>
+  </data>
+  <data name="ReportLabelPo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 23</value>
+  </data>
+  <data name="ReportLabelPo.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="ReportLabelPo.Text" xml:space="preserve">
+    <value>по</value>
+  </data>
+  <data name="ReportLabelPo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;ReportLabelPo.Name" xml:space="preserve">
+    <value>ReportLabelPo</value>
+  </data>
+  <data name="&gt;&gt;ReportLabelPo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReportLabelPo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ReportLabelPo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ReportOkButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Times New Roman, 10pt</value>
+  </data>
+  <data name="ReportOkButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ReportOkButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>901, 5</value>
+  </data>
+  <data name="ReportOkButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 23</value>
+  </data>
+  <data name="ReportOkButton.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="ReportOkButton.Text" xml:space="preserve">
+    <value>Применить</value>
+  </data>
+  <data name="&gt;&gt;ReportOkButton.Name" xml:space="preserve">
+    <value>ReportOkButton</value>
+  </data>
+  <data name="&gt;&gt;ReportOkButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReportOkButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ReportOkButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="cattleReportWorkDBDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>-8, 14</value>
+  </metadata>
+  <metadata name="cattlesReportBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>-8, 49</value>
+  </metadata>
+  <metadata name="cattlesReportTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>-20, 90</value>
+  </metadata>
+  <metadata name="customersReportTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>196, 89</value>
+  </metadata>
+  <metadata name="milkReportWorkDBDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>432, 8</value>
+  </metadata>
+  <metadata name="milkReportBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>443, 46</value>
+  </metadata>
+  <metadata name="milkReportTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>446, 83</value>
+  </metadata>
+  <metadata name="OrdersTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>184, 161</value>
+  </metadata>
+  <metadata name="CattlesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 200</value>
+  </metadata>
+  <metadata name="MilkTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>288, 122</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1071, 708</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Система учета реализации готовой продукции животноводства</value>
+  </data>
+  <data name="&gt;&gt;CattlesBindingSource.Name" xml:space="preserve">
+    <value>CattlesBindingSource</value>
+  </data>
+  <data name="&gt;&gt;CattlesBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CattleDataSet.Name" xml:space="preserve">
+    <value>CattleDataSet</value>
+  </data>
+  <data name="&gt;&gt;CattleDataSet.Type" xml:space="preserve">
+    <value>AutomatedAccountingSystem.CattleDataSet, CattleDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;MilkBindingSource.Name" xml:space="preserve">
+    <value>MilkBindingSource</value>
+  </data>
+  <data name="&gt;&gt;MilkBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MilkDataSet.Name" xml:space="preserve">
+    <value>MilkDataSet</value>
+  </data>
+  <data name="&gt;&gt;MilkDataSet.Type" xml:space="preserve">
+    <value>AutomatedAccountingSystem.MilkDataSet, MilkDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;OrdersBindingSource.Name" xml:space="preserve">
+    <value>OrdersBindingSource</value>
+  </data>
+  <data name="&gt;&gt;OrdersBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OrderDataSet.Name" xml:space="preserve">
+    <value>OrderDataSet</value>
+  </data>
+  <data name="&gt;&gt;OrderDataSet.Type" xml:space="preserve">
+    <value>AutomatedAccountingSystem.OrderDataSet, OrderDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;newToolButton.Name" xml:space="preserve">
+    <value>newToolButton</value>
+  </data>
+  <data name="&gt;&gt;newToolButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;editToolButton.Name" xml:space="preserve">
+    <value>editToolButton</value>
+  </data>
+  <data name="&gt;&gt;editToolButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteToolButton.Name" xml:space="preserve">
+    <value>deleteToolButton</value>
+  </data>
+  <data name="&gt;&gt;deleteToolButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nameLabel.Name" xml:space="preserve">
+    <value>nameLabel</value>
+  </data>
+  <data name="&gt;&gt;nameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customersReportBindingSource.Name" xml:space="preserve">
+    <value>customersReportBindingSource</value>
+  </data>
+  <data name="&gt;&gt;customersReportBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;customerReportWorkDBDataSet.Name" xml:space="preserve">
+    <value>customerReportWorkDBDataSet</value>
+  </data>
+  <data name="&gt;&gt;customerReportWorkDBDataSet.Type" xml:space="preserve">
+    <value>AutomatedAccountingSystem.CustomerReportWorkDBDataSet, CustomerReportWorkDBDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cattleReportWorkDBDataSet.Name" xml:space="preserve">
+    <value>cattleReportWorkDBDataSet</value>
+  </data>
+  <data name="&gt;&gt;cattleReportWorkDBDataSet.Type" xml:space="preserve">
+    <value>AutomatedAccountingSystem.CattleReportWorkDBDataSet, CattleReportWorkDBDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cattlesReportBindingSource.Name" xml:space="preserve">
+    <value>cattlesReportBindingSource</value>
+  </data>
+  <data name="&gt;&gt;cattlesReportBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cattlesReportTableAdapter.Name" xml:space="preserve">
+    <value>cattlesReportTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;cattlesReportTableAdapter.Type" xml:space="preserve">
+    <value>AutomatedAccountingSystem.CattleReportWorkDBDataSetTableAdapters.CattlesReportTableAdapter, CattleReportWorkDBDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;customersReportTableAdapter.Name" xml:space="preserve">
+    <value>customersReportTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;customersReportTableAdapter.Type" xml:space="preserve">
+    <value>AutomatedAccountingSystem.CustomerReportWorkDBDataSetTableAdapters.CustomersReportTableAdapter, CustomerReportWorkDBDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;milkReportWorkDBDataSet.Name" xml:space="preserve">
+    <value>milkReportWorkDBDataSet</value>
+  </data>
+  <data name="&gt;&gt;milkReportWorkDBDataSet.Type" xml:space="preserve">
+    <value>AutomatedAccountingSystem.MilkReportWorkDBDataSet, MilkReportWorkDBDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;milkReportBindingSource.Name" xml:space="preserve">
+    <value>milkReportBindingSource</value>
+  </data>
+  <data name="&gt;&gt;milkReportBindingSource.Type" xml:space="preserve">
+    <value>System.Windows.Forms.BindingSource, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;milkReportTableAdapter.Name" xml:space="preserve">
+    <value>milkReportTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;milkReportTableAdapter.Type" xml:space="preserve">
+    <value>AutomatedAccountingSystem.MilkReportWorkDBDataSetTableAdapters.MilkReportTableAdapter, MilkReportWorkDBDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;OrdersTableAdapter.Name" xml:space="preserve">
+    <value>OrdersTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;OrdersTableAdapter.Type" xml:space="preserve">
+    <value>AutomatedAccountingSystem.OrderDataSetTableAdapters.OrdersTableAdapter, OrderDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;CattlesTableAdapter.Name" xml:space="preserve">
+    <value>CattlesTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;CattlesTableAdapter.Type" xml:space="preserve">
+    <value>AutomatedAccountingSystem.CattleDataSetTableAdapters.CattlesTableAdapter, CattleDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;MilkTableAdapter.Name" xml:space="preserve">
+    <value>MilkTableAdapter</value>
+  </data>
+  <data name="&gt;&gt;MilkTableAdapter.Type" xml:space="preserve">
+    <value>AutomatedAccountingSystem.MilkDataSetTableAdapters.MilkTableAdapter, MilkDataSet.Designer.cs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

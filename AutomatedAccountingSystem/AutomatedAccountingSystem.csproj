@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5BEB4585-5480-4B39-BD67-CAC3775D5F6D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AutomatedAccountingSystem</RootNamespace>
+    <AssemblyName>AutomatedAccountingSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Win32Resource>
+    </Win32Resource>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.Common.10.0.40219.1\lib\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportViewer.WinForms.v12.12.0.0.1\lib\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Reporting.WinForms.v11.1.0.0.0\lib\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessoryForms\CattleViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccessoryForms\CattleViewForm.Designer.cs">
+      <DependentUpon>CattleViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccessoryForms\MilkViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccessoryForms\MilkViewForm.Designer.cs">
+      <DependentUpon>MilkViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccessoryForms\TTMilkForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccessoryForms\TTMilkForm.Designer.cs">
+      <DependentUpon>TTMilkForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessObjects\Cattle.cs" />
+    <Compile Include="BusinessObjects\Customer.cs" />
+    <Compile Include="BusinessObjects\Milk.cs" />
+    <Compile Include="BusinessObjects\Order.cs" />
+    <Compile Include="BusinessObjects\OrderCattle.cs" />
+    <Compile Include="BusinessObjects\OrderMilk.cs" />
+    <Compile Include="CattleDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CattleDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CattleMainWorkDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CattleMainWorkDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CattleReportWorkDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CattleReportWorkDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerMainWorkDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerMainWorkDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerReportWorkDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerReportWorkDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHelper.cs" />
+    <Compile Include="AccessoryForms\CustomerViewForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccessoryForms\CustomerViewForm.Designer.cs">
+      <DependentUpon>CustomerViewForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\CattleDbOperations.cs" />
+    <Compile Include="Helpers\CustomerDbOperations.cs" />
+    <Compile Include="Helpers\DBHelper.cs" />
+    <Compile Include="Helpers\MilkDbOperations.cs" />
+    <Compile Include="Helpers\OrderDbOperations.cs" />
+    <Compile Include="Helpers\ParseHelper.cs" />
+    <Compile Include="MilkDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MilkDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MilkMainWorkDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MilkMainWorkDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MilkReportWorkDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MilkReportWorkDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OrderDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrderDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AccessoryForms\CattleViewForm.resx">
+      <DependentUpon>CattleViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccessoryForms\CattleViewForm.ru.resx">
+      <DependentUpon>CattleViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccessoryForms\MilkViewForm.resx">
+      <DependentUpon>MilkViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccessoryForms\TTMilkForm.resx">
+      <DependentUpon>TTMilkForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccessoryForms\TTMilkForm.ru.resx">
+      <DependentUpon>TTMilkForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccessoryForms\CustomerViewForm.resx">
+      <DependentUpon>CustomerViewForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.ru.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MilkProducks.rdlc" />
+    <EmbeddedResource Include="OrdersReport.rdlc" />
+    <EmbeddedResource Include="CattleReport.rdlc" />
+    <EmbeddedResource Include="CustomerReport.rdlc" />
+    <EmbeddedResource Include="MilkTTReport.rdlc" />
+    <EmbeddedResource Include="CattleTTReport.rdlc" />
+    <None Include="CattleDataSet.xsc">
+      <DependentUpon>CattleDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CattleDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CattleDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CattleDataSet.xss">
+      <DependentUpon>CattleDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CattleMainWorkDBDataSet.xsc">
+      <DependentUpon>CattleMainWorkDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CattleMainWorkDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CattleMainWorkDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CattleMainWorkDBDataSet.xss">
+      <DependentUpon>CattleMainWorkDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CattleReportWorkDBDataSet.xsc">
+      <DependentUpon>CattleReportWorkDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CattleReportWorkDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CattleReportWorkDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CattleReportWorkDBDataSet.xss">
+      <DependentUpon>CattleReportWorkDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerMainWorkDBDataSet.xsc">
+      <DependentUpon>CustomerMainWorkDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerMainWorkDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerMainWorkDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CustomerMainWorkDBDataSet.xss">
+      <DependentUpon>CustomerMainWorkDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerReportWorkDBDataSet.xsc">
+      <DependentUpon>CustomerReportWorkDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerReportWorkDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerReportWorkDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CustomerReportWorkDBDataSet.xss">
+      <DependentUpon>CustomerReportWorkDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MilkDataSet.xsc">
+      <DependentUpon>MilkDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MilkDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MilkDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MilkDataSet.xss">
+      <DependentUpon>MilkDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MilkMainWorkDBDataSet.xsc">
+      <DependentUpon>MilkMainWorkDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MilkMainWorkDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MilkMainWorkDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MilkMainWorkDBDataSet.xss">
+      <DependentUpon>MilkMainWorkDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MilkReportWorkDBDataSet.xsc">
+      <DependentUpon>MilkReportWorkDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MilkReportWorkDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MilkReportWorkDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MilkReportWorkDBDataSet.xss">
+      <DependentUpon>MilkReportWorkDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OrderDataSet.xsc">
+      <DependentUpon>OrderDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OrderDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrderDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OrderDataSet.xss">
+      <DependentUpon>OrderDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\customers1_64x64.png" />
+    <EmbeddedResource Include="Images\customers2_64x64.png" />
+    <EmbeddedResource Include="Images\orders1_64x64.png" />
+    <EmbeddedResource Include="Images\orders2_64x64.png" />
+    <EmbeddedResource Include="Images\products3_64x64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\cow_48x48.png" />
+    <EmbeddedResource Include="Images\document1_48x48.png" />
+    <EmbeddedResource Include="Images\document2_48x48.png" />
+    <EmbeddedResource Include="Images\milk_48x48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Delete1_16x16.png" />
+    <EmbeddedResource Include="Images\Delete_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\Edit1_16x16.png" />
+    <EmbeddedResource Include="Images\Edit_16x16.png" />
+    <EmbeddedResource Include="Images\Insert_16x16.png" />
+    <EmbeddedResource Include="Images\New_16x16.png" />
+    <EmbeddedResource Include="Images\Save1_16x16.png" />
+    <EmbeddedResource Include="Images\Save_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\cow.png" />
+    <Content Include="Images\milk.png" />
+    <Content Include="Images\orders.png" />
+    <Content Include="Images\products.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
